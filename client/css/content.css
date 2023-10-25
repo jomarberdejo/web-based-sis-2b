@@ -1,0 +1,408 @@
+
+
+/*Homepage*/
+
+.homepage {
+  background-image: url('../background-images/home-bg.jpeg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7));
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: darken;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+  
+  
+}
+
+.fa-greater-than {
+  font-size: 1.3rem;
+}
+
+.title-page {
+  color: #fff;
+}
+
+.title-page .title {
+  font-weight: 600;
+  font-size: 1.5rem;
+  font-family: Poppins;
+}
+
+
+
+
+.main-paragraph {
+  background-color: transparent;
+  border: 1px solid #ddd;
+  padding: 1rem;
+  margin: 40px auto;
+  max-width: 80%;
+  height: 590px;
+  overflow-y: auto;
+}
+
+.main-paragraph::-webkit-scrollbar{
+  display: none;
+}
+
+
+
+.content-title h3{
+  display: flex;
+  gap: 0.7rem;
+  margin-left: 10px;
+  align-items: center;
+}
+
+
+.main-paragraph-1,
+.main-paragraph-2 {
+  margin-bottom: 1.4rem;
+ border-radius: 10px;
+}
+
+.main-paragraph p {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+ 
+}
+
+
+
+.welcome-message {
+  text-align: center;
+}
+
+.activities {
+  margin-top: 3.5rem;
+  height: auto;
+  
+}
+
+#activities-title-span {
+  color: #fff;
+}
+
+.activities-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+
+.container>grp {
+  flex: 1;
+}
+
+.grp {
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  /*box-shadow: 12px 12px 29px #151b20, -12px -12px 29px #1a1f26;*/
+  background-image: linear-gradient(110.3deg, rgb(34, 47, 57) 4.3%, rgba(49, 55, 82, 1) 96.7%);
+}
+
+
+.grp:hover {
+    background-image: linear-gradient(110.3deg,#007aff, black 100.7%);
+    
+}
+
+.activities h2 {
+  font-weight: 800;
+  color: #ddd;
+  padding: 10px;
+  font-size: 1.2rem;
+  text-align: center;
+  letter-spacing: 1.8px;
+}
+
+.grp .img {
+  text-align: center;
+  margin: 10px;
+
+}
+
+.grp .img img {
+  border: 2px solid #ddd;
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  transition: transform 2s;
+}
+
+.grp img:hover {
+  transform: translateY(-6px);
+}
+
+
+.dashboard-data .card{
+        height: 100px;
+        
+     }
+
+#radioButtons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px auto;
+  font-size: 1rem;
+  color: #fff;
+  
+}
+
+
+#radioButtons input[type="radio"] {
+  display: none; 
+}
+
+#radioButtons input[type="radio"] + label {
+  
+  padding: 8px 16px;
+  color: #fff; 
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s, color 0.3s;
+  
+  &:hover{
+  background-color: #ffffff43;
+}
+}
+
+
+#radioButtons input[type="radio"]:checked + label {
+  background-color: gold;
+  color: #225; 
+}
+
+
+
+
+
+.chart{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 90%;
+  max-width: 500px;
+  padding: 10px 5px;
+  
+}
+
+
+
+
+#dashboardChart {
+  width: 100%;
+  
+}
+
+   
+
+   /*Overriding some bootstrap styles*/
+   
+      
+    /*Overriding some bootstrap styles in Add student */
+      ._form-container {
+    width: 100%;
+    margin: auto;
+  }
+
+
+
+  ._add-student-homepage .card {
+    background-color: #121212;
+    color: #fff;
+    border: 1px solid gray;
+  }
+
+
+
+  ._add-student-homepage .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+
+  ._add-student-homepage .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  ._add-student-homepage .btn-primary:focus {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
+  }
+
+  ._add-student-homepage a {
+    color: #fff;
+  }
+ 
+  ._add-student-homepage .save-button{
+    width: 99%; 
+    margin: 32px auto;
+  }
+    
+     
+    /*Overriding some bootstrap styles in dashboard */
+     ._dashboard-homepage .card {
+    margin: 2rem auto 2rem auto;
+    border: 1px solid #ddd;
+    color: #fff;
+    cursor: pointer;
+  }
+  ._dashboard-homepage .card:hover {
+    background-color: #ffffff33!important;
+  
+  }
+
+  ._dashboard-homepage .card-body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  ._dashboard-homepage .card-body i{
+    color: orange;
+  }
+  
+    ._dashboard-homepage .card-title{
+      font-size: 1rem;
+    }
+  
+  ._dashboard-homepage .card-body h2{
+    font-size: 2rem;
+  }
+  ._dashboard-homepage .card-link{
+    color: gold!important;
+    text-underline-offset: 4px;
+
+  }
+  
+    /*Overriding some bootstrap styles in student list*/
+     ._student-list .card{
+    background-color: transparent;
+   border: 1px solid #ddd;
+ }
+ ._student-list thead, ._student-report thead{
+   position: sticky;
+   top: -4px;
+   left: 0;
+   
+ }
+
+  ._student-list th, td{
+     color:#fff ;
+   text-align: center;
+   vertical-align: middle;
+   
+   
+ }
+._student-list .__actions{
+   display: flex;
+   justify-content: center;
+   gap: 1.2rem;
+ }
+  ._student-list .__data-table{
+     height: 400px;
+     
+   }
+    
+    /*Overriding some bootstrap styles in student report*/
+    
+ ._student-report .card{
+    background-color: transparent;
+    border: 1px solid #ddd;
+  }
+  ._student-report th, td{
+      color:#fff ;
+    text-align: center;
+    vertical-align: middle;
+    
+  }
+  .__actions{
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+  }
+    ._student-report .__data-table{
+      height: 400px;
+    }
+   
+   
+   
+   /*Overriding some bootstrap styles in about */
+   ._heading, ._subheading{
+    color: #fff;
+  }
+    ._about-icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    margin-right: 0.5rem;
+  }
+  ._heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+  }
+  
+  ._subheading {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  ._about-card {
+    background-color: transparent!important;
+  }
+  ._about-card-body, ._about-list-group > *{
+     background-color: transparent!important;
+     color: #fff!important;
+     border: 1px solid #ccc!important;
+  }
+    
+
+@media(max-width: 991px){
+  ._form-2, ._key-features{
+    margin-top: 2rem!important;
+  }
+    
+}
+
+@media  (max-width: 760px) {
+  .main-paragraph {
+    padding: 19px;
+  }
+  
+  .chart{
+    flex-direction: column;
+    margin: auto;
+  }
+  
+  #radioButtons{
+    flex-direction: row;
+    
+  }
+
+}
+@media (max-width: 420px) {
+  .grp .img img {
+    width: 100%;
+    
+    object-fit: cover;
+  }
+  
+  .content-title h3{
+    font-size: 1.3rem;
+    
+  }
+  ._key-features{
+    margin-top: 20px!important;
+  }
+  ._form-2{
+    margin-top: 20px!important;
+  }
+}
