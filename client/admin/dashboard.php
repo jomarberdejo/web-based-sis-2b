@@ -1,3 +1,6 @@
+<?php 
+  include('../common/check_auth.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,13 +17,13 @@
 
     
     <!-- js links -->
-  <script defer src="../js/dashboard.js"></script>
-    <script defer src="../js/home.js"></script>
+
+    
     <script defer src="../js/logout.js"></script>
     <script defer src="../js/main.js"></script>
 
     <script defer src="../js/chart.js"></script>
-
+    <script defer src="../js/dashboard.js"></script>
   
     <!-- dependencies -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -164,7 +167,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
   
-    <script src="js/dashboard.js"></script>
+  
   
 </body>
 

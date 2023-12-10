@@ -1,5 +1,6 @@
-
-
+<?php 
+  include('../common/check_auth.php');
+?>
 
 <html>
 <head>

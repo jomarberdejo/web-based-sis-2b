@@ -1,3 +1,6 @@
+<?php 
+  include('../common/check_auth.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -65,16 +68,16 @@
         </div>
       </div>
       <!-- Table design for student list -->
-      <div class="col-lg-12 mt-3">
+      <div class="col-lg mt-3">
         <div class="card">
-          <div class="card-body bg-dark">
+          <div class="card-body ">
             <div class="table-responsive">
              <div class="__data-table overflow-auto">
               <table id="datatable" class="table table-hover table-dark table-striped table-bordered">
-                <thead>
+                <thead class= "thead-dark">
                   <tr>
                     <th>Student ID</th>
-                    <th>Full Name</th>
+                    <th > Full Name</th>
                     <th>Age</th>
                     <th>Gender</th>
                     <th>Email</th>

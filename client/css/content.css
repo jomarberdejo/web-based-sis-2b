@@ -198,6 +198,7 @@
 
 
 
+
 #dashboardChart {
   width: 100%;
   
@@ -311,7 +312,22 @@
   ._student-list .__data-table{
      height: 400px;
      
+
    }
+   ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px; /* Add this for horizontal scrollbar */
+  
+  }
+  
+  .__data-table::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+  }
+  
+  .__data-table::-webkit-scrollbar-track {
+    background-color: #f1f1f1;
+  }
     
     /*Overriding some bootstrap styles in student report*/
     

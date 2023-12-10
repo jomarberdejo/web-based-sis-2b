@@ -1,3 +1,6 @@
+<?php 
+  include('../common/check_auth.php');
+?>
 <!DOCTYPE html>
 <html>
   <head>

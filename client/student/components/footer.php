@@ -1,3 +1,5 @@
+
+  
   <footer>
     <div class="footer-container">
       <div class="footer-wrapper">
@@ -24,14 +26,14 @@
             <ul>
               <li><i class="fa-solid fa-location-dot social"></i> Carigara Leyte</li>
               <li><a href="mailto:jomar.berdejo@evsu.edu.ph"><i class="fa-solid fa-envelope social"></i> jomar.berdejo@evsu.edu.ph</a></li>
-              <li><a href="hangelamae.margallo@evsu.edu.ph"><i class="fa-solid fa-envelope social"></i> hangelamae.margallo@evsu.edu.ph</a></li>
-              <li><i class="fa-solid fa-phone social"></i> 09381308925</li>
+              <li><a href="mailto:hangelamae.margallo@evsu.edu.ph"><i class="fa-solid fa-envelope social"></i> hangelamae.margallo@evsu.edu.ph</a></li>
+             <li><i class="fa-solid fa-phone social"></i>  <a href= "tel:09381308925">09381308925</a></li>
             </ul>
             <ul class="social-icons">
-              <li><a href="https://m.facebook.com/jemax123?wtsid=rdr_0eM2vXLGlVznkjuFA"><i class="fa fa-facebook"></i> </a></li>
-              <li><a href="https://twitter.com/BerdejoJomar/"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="https://instagram.com/a_quilaaa?igshid=ZDdkNTZiNTM="><i class="fa fa-instagram"></i></a></li>
-              <li><a href="https://github.com/jomarberdejo">
+              <li><a href="https://web.facebook.com/angelmae.garcia.315" target= "_blank"><i class="fa fa-facebook"></i> </a></li>
+              <li><a href="https://twitter.com/BerdejoJomar/" target= "_blank"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="https://instagram.com/a_quilaaa?igshid=ZDdkNTZiNTM=" target= "_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://github.com/jomarberdejo" target= "_blank">
                 <i class="fa-brands fa-github"></i>
               </a></li>
             </ul>
